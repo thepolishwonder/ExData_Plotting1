@@ -1,3 +1,5 @@
+# Maciolek's work for Prog Assignment #1
+
 # Read in the data, skip the NAs
 varNames <- read.table("./household_power_consumption.txt", sep=";", nrows=1, header = T )
 varNames<-names(varNames)
