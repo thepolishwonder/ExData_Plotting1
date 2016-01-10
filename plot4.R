@@ -32,7 +32,7 @@ lines(x$Time, x$Sub_metering_3, col="blue")
 legend("topright",legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=c(1, 1, 1),col=c("black","red","blue"), bty="n")
 
 #plot
-plot(x$Time, x$Global_reactive_power, type="n", xlab="datetime")
+plot(x$Time, x$Global_reactive_power, type="n", xlab="datetime", ylab="Global_reactive_power")
 lines(x$Time, x$Global_reactive_power)
 
 dev.off()
